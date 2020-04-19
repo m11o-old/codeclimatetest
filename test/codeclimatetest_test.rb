@@ -10,6 +10,6 @@ class CodeclimatetestTest < Test::Unit::TestCase
   end
 
   def test_travis
-    assert_equal Codeclimatetest.travis, 'travis'
+    assert_equal ::Codeclimatetest::Ci.travis, 'travis'
   end
 end
