@@ -12,4 +12,5 @@ before_install:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 after_script:
+  - ./cc-test-reporter format-coverage -t simplecov coverage/.resultset.json
   - ./cc-test-reporter after-build -d -t simplecov --exit-code $TRAVIS_TEST_RESULT
