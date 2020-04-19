@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require 'codeclimatetest'
 
-require 'simplecov'
+require 'coveralls'
 require 'test/unit'
 
-SimpleCov.start
+Coveralls.wear!
