@@ -12,7 +12,5 @@ before_install:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 after_script:
-  - ls -la /home/travis/build/m11o/codeclimatetest
-  - ls -la /home/travis/build/m11o/codeclimatetest/coverage
-  - ./cc-test-reporter format-coverage -t simplecov coverage/.resultset.json
+  - ./cc-test-reporter format-coverage -d -t simplecov /home/travis/build/m11o/codeclimatetest/coverage/.resultset.json
   - ./cc-test-reporter after-build -d -t simplecov --exit-code $TRAVIS_TEST_RESULT
