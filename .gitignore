@@ -8,6 +8,7 @@
 /tmp/
 
 .ruby-version
+/vendor
 
 # for .idea
 .rakeTasks
