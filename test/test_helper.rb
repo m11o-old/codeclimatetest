@@ -5,7 +5,7 @@ require 'simplecov'
 require 'test/unit'
 
 SimpleCov.start
-puts ENV['CODECOV_TOKEN']
+
 if ENV['CODECOV_TOKEN']
   require 'codecov'
   SimpleCov.formatter =  SimpleCov::Formatter::Codecov
