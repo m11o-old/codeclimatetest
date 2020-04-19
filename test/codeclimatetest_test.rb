@@ -12,4 +12,16 @@ class CodeclimatetestTest < Test::Unit::TestCase
   def test_travis
     assert_equal ::Codeclimatetest::Ci.travis, 'travis'
   end
+
+  def test_codecov
+    assert_equal Codeclimatetest::Ci.codecov, 'codecov'
+  end
+
+  def test_code_climate
+    assert_equal Codeclimatetest::Ci.code_climate, 'code_climate'
+  end
+
+  def test_ci
+    assert_equal Codeclimatetest::Ci.ci, 'travis/codecov/code_climate'
+  end
 end
