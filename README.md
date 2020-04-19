@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/m11o/codeclimatetest.svg?branch=master)](https://travis-ci.org/m11o/codeclimatetest)
 [![Maintainability](https://api.codeclimate.com/v1/badges/315107fcbd5e68b09145/maintainability)](https://codeclimate.com/github/m11o/codeclimatetest/maintainability)
-[![Coverage Status](https://coveralls.io/repos/github/m11o/codeclimatetest/badge.svg?branch=feature/add-coverage)](https://coveralls.io/github/m11o/codeclimatetest?branch=feature/add-coverage)
+[![codecov](https://codecov.io/gh/m11o/codeclimatetest/branch/master/graph/badge.svg)](https://codecov.io/gh/m11o/codeclimatetest)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/codeclimatetest`. To experiment with that code, run `bin/console` for an interactive prompt.
 

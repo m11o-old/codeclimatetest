@@ -1,7 +1,12 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require 'codeclimatetest'
 
-require 'coveralls'
+require 'simplecov'
 require 'test/unit'
 
-Coveralls.wear!
+SimpleCov.start
+
+if ENV['CODECOV_TOKEN']
+  require 'codecov'
+  SimpleCov.formatter =  SimpleCov::Formatter::Codecov
+end
