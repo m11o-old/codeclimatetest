@@ -1,5 +1,9 @@
 # Codeclimatetest
 
+[![Build Status](https://travis-ci.org/m11o/codeclimatetest.svg?branch=master)](https://travis-ci.org/m11o/codeclimatetest)
+[![Maintainability](https://api.codeclimate.com/v1/badges/315107fcbd5e68b09145/maintainability)](https://codeclimate.com/github/m11o/codeclimatetest/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/315107fcbd5e68b09145/test_coverage)](https://codeclimate.com/github/m11o/codeclimatetest/test_coverage)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/codeclimatetest`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
