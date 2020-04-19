@@ -1,18 +1,6 @@
 ---
-env:
-  global:
-    - CC_TEST_REPORTER_ID=efd0a006b033e98f67a2193d3cabe3193b70d3f9a712f3620c1b17d1675a3616
 language: ruby
 cache: bundler
 rvm:
   - 2.6.1
-before_install:
-  - gem install bundler -v '<2'
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
-after_script:
-  - pwd
-  - ls -la ./
-  - ls -la /home/travis/build/m11o/codeclimatetest/coverage
-  - ./cc-test-reporter after-build -d -t simplecov -p /home/travis/build/m11o/codeclimatetest --exit-code $TRAVIS_TEST_RESULT
+before_install: gem install bundler -v '<2'
