@@ -1,4 +1,4 @@
-require "codeclimatetest/version"
+require 'codeclimatetest/version'
 
 module Codeclimatetest
   class Error < StandardError; end
