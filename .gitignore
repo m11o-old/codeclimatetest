@@ -14,3 +14,4 @@
 # for .idea
 .rakeTasks
 .idea
+/**/.DS_Store
